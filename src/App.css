@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap");
+
+body{
+  overflow-x: hidden;
+}
+
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.quantity_minus,
+.quantity_plus {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  background: #dee0ee;
+  text-decoration: none;
+  text-align: center;
+  line-height: 53px;
+  font-size: 20px;
+}
+.quantity_minus:hover,
+.quantity_plus:hover {
+  background: #575b71;
+  color: #fff;
+}
+.quantity_minus {
+  border-radius: 3px 0 0 3px;
+}
+.quantity_plus {
+  border-radius: 0 3px 3px 0;
+}
+.quantity_input {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid #dee0ee;
+  border-bottom: 2px solid #dee0ee;
+  border-left: 1px solid #dee0ee;
+  border-right: 2px solid #dee0ee;
+  background: #fff;
+  color: #8184a1;
+}
+.quantity_minus:link,
+.quantity_plus:link {
+  color: #8184a1;
+}
+.quantity_minus:visited,
+.quantity_plus:visited {
+  color: #fff;
+}
+
+
